@@ -1,0 +1,63 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code (optional: keep commented if you want to share config)
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# =========================
+# 🔒 SENSITIVE FILES (IMPORTANT)
+# =========================
+
+# Environment variables
+.env
+*.env
+
+# Firebase config files
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Local config (Android)
+local.properties
+
+# API keys / secret files (optional safety)
+*.key
+*.pem
+*.p12
